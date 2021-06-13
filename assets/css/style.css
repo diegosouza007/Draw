@@ -4,7 +4,7 @@ html {
     padding-top: 30px;
     margin-right: 5px;
     margin-left: 5px;
-    min-width: 350px;
+    min-width: 340px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -25,6 +25,11 @@ h1 {
     justify-content: center;
 }
 
+h2 {
+    margin: 0;
+    margin-top: 15px;
+}
+
 #image-background {
     display: block;
     float: right;
@@ -34,7 +39,7 @@ h1 {
 }
 
 #image-dice {
-    width: 32px;
+    width: 48px;
 }
 
 #draw {
@@ -61,12 +66,17 @@ h1 {
     border-radius: 35px;
     height: 50px;
     width: 150px;
-    margin-bottom: 20px;
     font-weight: bold;
 }
 
 #draw-btn:hover {
     color: white;
     background-color: #696cff;
+    transition: .2s ease-in-out;
+}
+
+#draw-btn:active {
+    color: #696cff;
+    background-color: white;
     transition: .2s ease-in-out;
 }
